@@ -36,6 +36,10 @@ nav li{
   border-radius:10px;
   border: none;
 }
+.btn-primary:hover {
+  background-color: #4338ca; 
+
+}
 .banner{
 text-align: center;
 margin-top: 158px;
