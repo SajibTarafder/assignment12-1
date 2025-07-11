@@ -2,7 +2,7 @@
 .raleway{
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  background-color:#eaeaf399 ;
+  
  
   
 
@@ -49,12 +49,15 @@ font-weight: bold;
 
 /* action section 2nd page */
 .container{
- margin: 0px 130px;
+ background-color:#eaeaf399 ;
  
 
 }
+.full-section{
+margin: 0px 130px;
+}
 .action{
-  margin-top: 30px;
+  padding-top: 50px;
 
 }
 .action-container{
@@ -89,7 +92,7 @@ padding-top: 40px;
   font-size: 38px;
   font-weight: bold;
   text-align:  center;
-  align-items: normal;
+  
  
 }
 .productive-title-page{
@@ -106,28 +109,119 @@ padding-top: 40px;
   font-weight: bold;
   margin: 0px;
   color: #4E47FF;
-  align-items: center;
+
 }
 /* review section */
 .review{
-  margin-top: 80px;
+  margin-top: 90px;
 }
 .card{
 
   display: flex;
-    justify-content: space-evenly;
+  justify-content: space-evenly;
  
    
 }
 .review-card{
   background-color: white;
   border-radius: 10px;
-margin:10px;
+  margin:10px;
 }
 .card-title{
  margin:20px;
 }
+.review-card-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-img{
+
+    margin: 1px;
+ display: flex;
+}
+.img-icon{
+  border-radius: 50%;
+
+}
+.section-4{
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 70px;
+  padding-top: 20px;
+}
+.section-4-img{
+  margin-top: 10px;
+  border-radius: 48px;
+  margin-bottom: 20px;
+}
 
 
+.section-5-container {
+  margin-top: 70px;
+  display: flex;
+ justify-content: space-between;
+}
+
+.left {
+
+margin-right: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.left h1 {
+  font-size: 100px;
+  font-weight: 700;
+  color: #000;
+}
+
+.right {
+  flex: 1;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+input,
+textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.footer-container{
+  text-align: center;
+   padding: 60px 20px;
+}
+.footer-title{
+  font-size: 90px;
+  font-weight: bold;
+  color: #4E47FF;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+}
 
 
